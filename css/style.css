@@ -1281,27 +1281,22 @@ h6 {
 
 .form__item:focus::-webkit-input-placeholder {
   color: #232E35;
-  border: 1px solid red;
 }
 
 .form__item:focus::-moz-placeholder {
   color: #232E35;
-  border: 1px solid red;
 }
 
 .form__item:focus:-ms-input-placeholder {
   color: #232E35;
-  border: 1px solid red;
 }
 
 .form__item:focus::-ms-input-placeholder {
   color: #232E35;
-  border: 1px solid red;
 }
 
 .form__item:focus::placeholder {
   color: #232E35;
-  border: 1px solid red;
 }
 
 .form__input {
@@ -1916,8 +1911,10 @@ textarea.form__input {
 
   .navigation-career__title {
     width: 100%;
-    border: 2px solid #232E35;
-    border-radius: 0.9375rem;
+    border-radius: 3.125rem;
+    background: rgba(244, 244, 244, 0.9333333333);
+    -webkit-box-shadow: 13px 13px 35px #a6a6a6, -13px -13px 35px #ffffff;
+            box-shadow: 13px 13px 35px #a6a6a6, -13px -13px 35px #ffffff;
   }
 
   .navigation-career__title:not(:last-child) {
@@ -1937,8 +1934,6 @@ textarea.form__input {
   .content-career__body {
     margin-top: -3.4375rem;
     padding: 0.625rem;
-    border: 1px solid #232E35;
-    border-radius: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
   }
 
   .content-career__title {
